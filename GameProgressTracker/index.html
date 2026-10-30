@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Пиксельная мастерская — инди-разработка игр</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="logo" href="#top">Пиксельная мастерская</a>
+      <nav>
+        <a href="#path">Путь игры</a>
+        <a href="#tools">Инструменты</a>
+        <a href="#tips">Советы</a>
+        <button id="theme-toggle" type="button" aria-label="Переключить тему">🌙</button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <h1>Маленькая команда, большая игра</h1>
+        <p class="lead">Инди-разработка — это когда идею доводят до релиза вдвоём, втроём или в одиночку. Здесь собрано то, с чего стоит начать.</p>
+        <a class="button" href="#path">Смотреть путь игры</a>
+      </section>
+
+      <section id="path">
+        <h2>Путь игры от идеи до релиза</h2>
+        <ol class="steps">
+          <li><b>Идея</b><span>Одна фраза: что делает игрок и почему это интересно.</span></li>
+          <li><b>Прототип</b><span>Серые квадраты и главная механика. Без графики.</span></li>
+          <li><b>Арт и звук</b><span>Стиль, музыка, эффекты — когда геймплей уже работает.</span></li>
+          <li><b>Тесты</b><span>Дайте поиграть друзьям и молча наблюдайте.</span></li>
+          <li><b>Релиз</b><span>Страница в магазине, трейлер, список желаемого.</span></li>
+        </ol>
+      </section>
+
+      <section id="tools">
+        <h2>Чем делают инди-игры</h2>
+        <dl class="tools">
+          <div class="row"><dt>Godot</dt><dd>Бесплатный движок с открытым кодом для 2D и 3D. Язык GDScript похож на Python.</dd></div>
+          <div class="row"><dt>GameMaker</dt><dd>Быстрый выбор для 2D-игр: комнаты, спрайты и собственный язык GML.</dd></div>
+          <div class="row"><dt>Unity</dt><dd>Универсальный движок на C# с огромным числом уроков и готовых ассетов.</dd></div>
+          <div class="row"><dt>Aseprite</dt><dd>Редактор пиксель-арта и анимации по кадрам.</dd></div>
+          <div class="row"><dt>Audacity</dt><dd>Бесплатная запись и обработка звуковых эффектов.</dd></div>
+        </dl>
+      </section>
+
+      <section id="tips">
+        <h2>Три правила, которые экономят месяцы</h2>
+        <div class="tips">
+          <div><h3>Начните с малого</h3><p>Первая игра на две недели научит больше, чем незаконченный шедевр на два года.</p></div>
+          <div><h3>Показывайте рано</h3><p>Выкладывайте гифки и заметки о разработке. Отзывы приходят раньше релиза.</p></div>
+          <div><h3>Заканчивайте</h3><p>Выпущенная скромная игра ценнее идеальной, которая лежит в папке.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>© <span id="year">2026</span> Пиксельная мастерская</footer>
+  </div>
+</body>
+</html>
